@@ -10,7 +10,7 @@ class ItemsController
 {
     public function index()
     {
-        $items = Item::select(['name'])->get();
+        $items = Item::query()->select(['name'])->get();
 
         return response()->json([
             'items' => $items,
