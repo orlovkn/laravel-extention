@@ -6,7 +6,7 @@
 [![Tests][badge-tests]][tests]
 [![Total Downloads][badge-downloads]][downloads]
 
-[badge-tests]: https://github.com/juststeveking/laravel-data-object-tools/actions/workflows/test.yml/badge.svg
+[badge-tests]: https://github.com/orlovkn/laravel-extention/actions/workflows/test.yml/badge.svg
 [badge-release]: https://img.shields.io/packagist/v/juststeveking/laravel-data-object-tools.svg?style=flat-square&label=release
 [badge-php]: https://img.shields.io/packagist/php-v/juststeveking/laravel-data-object-tools.svg?style=flat-square
 [badge-downloads]: https://img.shields.io/packagist/dt/orlovkn/laravel-extention.svg?style=flat-square&colorB=mediumvioletred
