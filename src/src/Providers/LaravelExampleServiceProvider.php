@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Orlov\LaravelExtention\Providers;
+namespace Orlovdev\LaravelExtention\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Orlov\LaravelExtention\Console\Commands\ExampleCommand;
+use Orlovdev\LaravelExtention\Console\Commands\ExampleCommand;
 
 class LaravelExampleServiceProvider extends ServiceProvider
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Orlov\LaravelExtention\Http\Controllers;
+namespace Orlovdev\LaravelExtention\Http\Controllers;
 
-use Orlov\LaravelExtention\Models\Item;
+use Orlovdev\LaravelExtention\Models\Item;
 
 class ItemsController
 {

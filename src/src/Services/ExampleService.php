@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Orlov\LaravelExtention\Services;
+namespace Orlovdev\LaravelExtention\Services;
 
 class ExampleService
 {
-    public function getSomeResult()
+    public function getSomeResult(): string
     {
         return 'bar';
     }

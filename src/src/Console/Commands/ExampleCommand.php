@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Orlov\LaravelExtention\Console\Commands;
+namespace Orlovdev\LaravelExtention\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Config;
