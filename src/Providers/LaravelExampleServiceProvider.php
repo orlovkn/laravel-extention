@@ -12,10 +12,10 @@ class LaravelExampleServiceProvider extends ServiceProvider
     public function boot()
     {
         if ($this->app->runningInConsole()) {
-            $this->loadMigrationsFrom(__DIR__ . '/../../database/migrations');
+            $this->loadMigrationsFrom(__DIR__.'/../../database/migrations');
 
             $this->publishes([
-                __DIR__ . '/../../config/example.php' => config_path('example.php'),
+                __DIR__.'/../../config/example.php' => config_path('example.php'),
             ]);
 
             $this->commands([
@@ -23,6 +23,6 @@ class LaravelExampleServiceProvider extends ServiceProvider
             ]);
         }
 
-        $this->loadRoutesFrom(__DIR__ . '/../../routes/api.php');
+        $this->loadRoutesFrom(__DIR__.'/../../routes/api.php');
     }
 }

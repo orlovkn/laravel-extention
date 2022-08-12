@@ -13,15 +13,8 @@ class ExampleCommand extends Command
 
     protected $description = 'Example Command';
 
-    public function __construct()
-    {
-        parent::__construct();
-    }
-
-    public function handle()
+    public function handle(): void
     {
         $this->info("Command executed with config param value " . Config::get('example.param'));
-
-        return 0;
     }
 }
